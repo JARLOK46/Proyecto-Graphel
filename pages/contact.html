@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacta a Graphel para conversar sobre tu proyecto digital.">
+    <title>Contacto | Graphel</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-shell">
+            <a class="brand" href="../index.html" aria-label="Ir al inicio de Graphel"><span class="brand__accent">Diseño</span><span class="brand__main">Multimedia</span></a>
+            <nav class="site-nav" aria-label="Navegación principal">
+                <a class="site-nav__link" href="../index.html">Inicio</a><a class="site-nav__link" href="about.html">Nosotros</a><a class="site-nav__link" href="services.html">Servicios</a><a class="site-nav__link is-active" href="contact.html" aria-current="page">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="newsletter">
+        <div class="container newsletter__shell">
+            <div>
+                <h2>Subscríbete a nuestro boletín</h2>
+            </div>
+            <form class="newsletter__form" data-form-type="newsletter" novalidate>
+                <label class="sr-only" for="newsletter-email">Correo electrónico</label>
+                <input id="newsletter-email" type="email" name="email" placeholder="Ingrese el Email..." autocomplete="email" required>
+                <button type="submit">Subscribete</button>
+                <p class="form-message" role="status" aria-live="polite"></p>
+            </form>
+        </div>
+    </section>
+
+    <main>
+        <section class="page-content">
+            <div class="container page-columns">
+                <div>
+                    <h1 class="page-title">Contacto</h1>
+                    <form class="contact-form" data-form-type="contact" novalidate>
+                        <div>
+                            <label for="name">Nombre</label>
+                            <input id="name" name="name" type="text" placeholder="Ingresa tu nombre" autocomplete="name" required>
+                        </div>
+                        <div>
+                            <label for="contact-email">Email</label>
+                            <input id="contact-email" name="email" type="email" placeholder="Ingresa tu email" autocomplete="email" required>
+                        </div>
+                        <div>
+                            <label for="phone">Teléfono</label>
+                            <input id="phone" name="phone" type="tel" placeholder="Ingresa tu teléfono" autocomplete="tel">
+                        </div>
+                        <div>
+                            <label for="mobile">Celular</label>
+                            <input id="mobile" name="mobile" type="tel" placeholder="Ingresa tu celular">
+                        </div>
+                        <div>
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit">Enviar</button>
+                        <p class="form-message" role="status" aria-live="polite"></p>
+                    </form>
+                </div>
+                <aside class="sidebar-column">
+                    <div class="sidebar-box">
+                        <h2>Que hacemos</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius auctor lacus nec feugiat. Phasellus sit amet ex ipsum. Praesent pharetra tincidunt tempor. Etiam velit eros, dapibus eget porta in, lacinia et magna</p>
+                    </div>
+                    <div class="map-frame">
+                        <img src="../assets/images/images/mapaGoogle.png" alt="Mapa de ubicación de Graphel">
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container"><p>Graphel Desarrollo Web, Copyright © 2017</p></div>
+    </footer>
+    <script src="../scripts/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Servicios de diseño multimedia y desarrollo web de Graphel.">
+    <title>Servicios | Graphel</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-shell">
+            <a class="brand" href="../index.html" aria-label="Ir al inicio de Graphel"><span class="brand__accent">Diseño</span><span class="brand__main">Multimedia</span></a>
+            <nav class="site-nav" aria-label="Navegación principal">
+                <a class="site-nav__link" href="../index.html">Inicio</a><a class="site-nav__link" href="about.html">Nosotros</a><a class="site-nav__link is-active" href="services.html" aria-current="page">Servicios</a><a class="site-nav__link" href="contact.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="newsletter">
+        <div class="container newsletter__shell">
+            <div>
+                <h2>Subscríbete a nuestro boletín</h2>
+            </div>
+            <form class="newsletter__form" data-form-type="newsletter" novalidate>
+                <label class="sr-only" for="newsletter-email">Correo electrónico</label>
+                <input id="newsletter-email" type="email" name="email" placeholder="Ingrese el Email..." autocomplete="email" required>
+                <button type="submit">Subscribete</button>
+                <p class="form-message" role="status" aria-live="polite"></p>
+            </form>
+        </div>
+    </section>
+
+    <main>
+        <section class="page-content">
+            <div class="container page-columns">
+                <div>
+                    <h1 class="page-title">Servicios</h1>
+                    <div class="service-list">
+                        <article class="service-item">
+                            <h2>Diseño Web</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+                            <p class="service-price">Precio: $300000 - $1000000</p>
+                        </article>
+                        <article class="service-item">
+                            <h2>Desarrollo Web</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+                            <p class="service-price">Precio desde: $1000000</p>
+                        </article>
+                        <article class="service-item">
+                            <h2>Hosting Web</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
+                            <p class="service-price">Precio: $300000</p>
+                        </article>
+                    </div>
+                </div>
+                <aside class="sidebar-box">
+                    <h2>Que hacemos</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius auctor lacus nec feugiat. Phasellus sit amet ex ipsum. Praesent pharetra tincidunt tempor. Etiam velit eros, dapibus eget porta in, lacinia et magna</p>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container"><p>Graphel Desarrollo Web, Copyright © 2017</p></div>
+    </footer>
+    <script src="../scripts/main.js" defer></script>
+</body>
+</html>
