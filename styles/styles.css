@@ -94,7 +94,6 @@ img {
 }
 
 .site-nav__link {
-	position: relative;
 	color: rgba(255, 255, 255, 0.82);
 	font-size: 0.92rem;
 	font-weight: 700;
@@ -129,27 +128,20 @@ img {
 }
 
 .hero {
-	position: relative;
 	min-height: 430px;
-	display: grid;
-	place-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	overflow: hidden;
 	background:
+		linear-gradient(135deg, rgba(16, 24, 32, 0.44), rgba(16, 24, 32, 0.08)),
+		radial-gradient(circle at center, transparent 0 42%, rgba(16, 24, 32, 0.18) 100%),
 		linear-gradient(180deg, rgba(20, 28, 34, 0.22), rgba(20, 28, 34, 0.58)),
 		url('../assets/images/cabecera.jpg') center/cover no-repeat;
 }
 
-.hero__overlay {
-	position: absolute;
-	inset: 0;
-	background:
-		linear-gradient(135deg, rgba(16, 24, 32, 0.44), rgba(16, 24, 32, 0.08)),
-		radial-gradient(circle at center, transparent 0 42%, rgba(16, 24, 32, 0.18) 100%);
-}
-
 .hero__content {
-	position: relative;
-	z-index: 1;
 	text-align: center;
 	color: #ffffff;
 	padding: 4.5rem 0;
