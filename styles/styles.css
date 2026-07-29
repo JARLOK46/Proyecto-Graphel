@@ -136,7 +136,7 @@ img {
 	overflow: hidden;
 	background:
 		linear-gradient(180deg, rgba(20, 28, 34, 0.22), rgba(20, 28, 34, 0.58)),
-		url('../assets/images/images/cabecera.jpg') center/cover no-repeat;
+		url('../assets/images/cabecera.jpg') center/cover no-repeat;
 }
 
 .hero__overlay {
